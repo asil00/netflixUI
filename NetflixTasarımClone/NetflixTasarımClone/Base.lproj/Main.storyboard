@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NetflixTasarımClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="mdO-ML-pD5">
+                                <rect key="frame" x="0.0" y="99" width="428" height="402"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="402" id="Op9-Ja-xcx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diziler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5n-Qb-Sek">
+                                <rect key="frame" x="10" y="119.99999999999999" width="70" height="20.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="8YZ-xF-Vmm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filmler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJm-cK-azk">
+                                <rect key="frame" x="162" y="119.99999999999999" width="104" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kategoriler" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66G-yG-eGC">
+                                <rect key="frame" x="333" y="122" width="75" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="m4Y-xK-8ah">
+                                <rect key="frame" x="335" y="45.333333333333329" width="29" height="36.333333333333343"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="RlY-Br-NoR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Netflix-avatar" translatesAutoresizingMaskIntoConstraints="NO" id="mGA-Gq-jqc">
+                                <rect key="frame" x="374" y="44" width="44" height="38"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aksiyon - Gerilim - Sürükleyici" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOV-hV-kcj">
+                                <rect key="frame" x="93" y="460.66666666666669" width="271" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcc-qb-38R">
+                                <rect key="frame" x="158.66666666666666" y="509" width="110.99999999999997" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="7cd-27-tXD"/>
+                                    <constraint firstAttribute="height" constant="31" id="lAB-XR-tfM"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="play.fill" catalog="system" title="  Oynat">
+                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="oynatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqo-Ry-DGn"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="459-Jf-aTL">
+                                <rect key="frame" x="332.66666666666669" y="497" width="64" height="55"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-Hy-6Xj">
+                                        <rect key="frame" x="0.0" y="0.99999999999999822" width="64" height="19"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waI-ZY-l1b">
+                                        <rect key="frame" x="0.0" y="23.333333333333371" width="64" height="31.666666666666671"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Bilgi">
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <rect key="contentStretch" x="0.050000000000000003" y="0.050000000000000003" width="1" height="0.90000000000000002"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K3V-bM-QYr">
+                                <rect key="frame" x="30" y="499" width="79" height="51"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NnT-6T-aZj">
+                                        <rect key="frame" x="0.0" y="2.3333333333333321" width="79" height="15.666666666666668"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwi-eV-RL9">
+                                        <rect key="frame" x="0.0" y="20" width="79" height="31"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Listem">
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uwi-eV-RL9" firstAttribute="top" secondItem="K3V-bM-QYr" secondAttribute="top" constant="20" symbolic="YES" id="dfo-nX-U3d"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Netflix'te Popüler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8Y-5U-DRi">
+                                <rect key="frame" x="30" y="548" width="210" height="55.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nb5-32-4XD">
+                                <rect key="frame" x="0.0" y="843" width="428" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Ph9-tJ-Sk6"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem title="Ana Sayfa" image="house.fill" catalog="system" id="3oR-kS-h8A"/>
+                                    <tabBarItem title="Ara" image="magnifyingglass" catalog="system" id="qVy-a8-MTS"/>
+                                    <tabBarItem title="Yeni ve Popüler" image="play.rectangle.on.rectangle" catalog="system" id="Ysh-Wb-fUo"/>
+                                    <tabBarItem title="İndirilenler" image="arrow.down.circle" catalog="system" id="2R4-Xb-6Kv"/>
+                                </items>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t5V-ki-dH2">
+                                <rect key="frame" x="47" y="631.66666666666663" width="334" height="187.33333333333337"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casino" translatesAutoresizingMaskIntoConstraints="NO" id="lTI-O1-sV9">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="187.33333333333334"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="106" id="shZ-jg-8A6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="046693" translatesAutoresizingMaskIntoConstraints="NO" id="t5C-Q3-dlN">
+                                        <rect key="frame" x="106" y="0.0" width="122" height="187.33333333333334"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dağ_II_film_afişi" translatesAutoresizingMaskIntoConstraints="NO" id="tMt-aI-BeK">
+                                        <rect key="frame" x="228" y="0.0" width="106" height="187.33333333333334"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="t5C-Q3-dlN" firstAttribute="centerX" secondItem="t5V-ki-dH2" secondAttribute="centerX" id="Oks-dP-Fsc"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflix_logo" translatesAutoresizingMaskIntoConstraints="NO" id="xmn-lL-zt1">
+                                <rect key="frame" x="10" y="44" width="56" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="Lph-Ab-2uc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t5V-ki-dH2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="1vB-iI-KDZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mGA-Gq-jqc" secondAttribute="trailing" constant="10" id="1yn-is-6Ep"/>
+                            <constraint firstItem="459-Jf-aTL" firstAttribute="leading" secondItem="pcc-qb-38R" secondAttribute="trailing" constant="63" id="2hU-AR-L1N"/>
+                            <constraint firstItem="mGA-Gq-jqc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="33E-9f-Kft"/>
+                            <constraint firstItem="Nb5-32-4XD" firstAttribute="top" secondItem="t5V-ki-dH2" secondAttribute="bottom" constant="24" id="3Y6-Dy-mvF"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="leading" secondItem="e5n-Qb-Sek" secondAttribute="leading" id="3oF-12-gmK"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="trailing" secondItem="Nb5-32-4XD" secondAttribute="trailing" id="5Cn-xa-i6V"/>
+                            <constraint firstItem="K3V-bM-QYr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Cdc-tm-NDP"/>
+                            <constraint firstItem="bJm-cK-azk" firstAttribute="baseline" secondItem="66G-yG-eGC" secondAttribute="baseline" id="D0I-1T-JLx"/>
+                            <constraint firstItem="Nb5-32-4XD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DY0-de-01V"/>
+                            <constraint firstItem="66G-yG-eGC" firstAttribute="leading" secondItem="bJm-cK-azk" secondAttribute="trailing" constant="67" id="Ghe-TL-nR0"/>
+                            <constraint firstItem="K3V-bM-QYr" firstAttribute="leading" secondItem="H8Y-5U-DRi" secondAttribute="leading" id="Glf-Y3-5bq"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ipo-1m-3qJ"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="top" secondItem="xmn-lL-zt1" secondAttribute="bottom" constant="8" symbolic="YES" id="Iwi-C6-l35"/>
+                            <constraint firstItem="e5n-Qb-Sek" firstAttribute="firstBaseline" secondItem="bJm-cK-azk" secondAttribute="firstBaseline" id="JZi-Ux-YuK"/>
+                            <constraint firstItem="m4Y-xK-8ah" firstAttribute="trailing" secondItem="gOV-hV-kcj" secondAttribute="trailing" id="L1M-8X-I5Y"/>
+                            <constraint firstItem="mGA-Gq-jqc" firstAttribute="leading" secondItem="m4Y-xK-8ah" secondAttribute="trailing" constant="15" id="LJ7-Xk-M9j"/>
+                            <constraint firstItem="t5V-ki-dH2" firstAttribute="top" secondItem="459-Jf-aTL" secondAttribute="bottom" constant="79.5" id="Mij-3T-9p3"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NPX-te-pzz"/>
+                            <constraint firstItem="gOV-hV-kcj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="Nxl-AM-qpn"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OX9-Eu-juy"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="centerY" secondItem="m4Y-xK-8ah" secondAttribute="centerY" id="OfD-wB-8na"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="centerX" secondItem="bJm-cK-azk" secondAttribute="centerX" id="Qck-E6-A0d"/>
+                            <constraint firstItem="pcc-qb-38R" firstAttribute="centerX" secondItem="t5V-ki-dH2" secondAttribute="centerX" id="Qky-Hi-1iC"/>
+                            <constraint firstItem="bJm-cK-azk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Rov-9A-oSq"/>
+                            <constraint firstItem="H8Y-5U-DRi" firstAttribute="top" secondItem="pcc-qb-38R" secondAttribute="bottom" constant="8" symbolic="YES" id="U8z-dr-LR9"/>
+                            <constraint firstItem="bJm-cK-azk" firstAttribute="firstBaseline" secondItem="66G-yG-eGC" secondAttribute="firstBaseline" id="UMi-cH-8S3"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="UTU-sz-dc3"/>
+                            <constraint firstItem="mGA-Gq-jqc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WdQ-eM-XxM"/>
+                            <constraint firstItem="pcc-qb-38R" firstAttribute="top" secondItem="mdO-ML-pD5" secondAttribute="bottom" constant="8" symbolic="YES" id="Wgp-JL-Fx9"/>
+                            <constraint firstItem="t5V-ki-dH2" firstAttribute="centerX" secondItem="Nb5-32-4XD" secondAttribute="centerX" id="X2S-Vu-2XU"/>
+                            <constraint firstItem="K3V-bM-QYr" firstAttribute="top" secondItem="gOV-hV-kcj" secondAttribute="bottom" constant="18" id="YOn-xA-4yc"/>
+                            <constraint firstItem="pcc-qb-38R" firstAttribute="centerY" secondItem="459-Jf-aTL" secondAttribute="centerY" id="aGI-2W-9jf"/>
+                            <constraint firstItem="K3V-bM-QYr" firstAttribute="centerY" secondItem="pcc-qb-38R" secondAttribute="centerY" id="aeI-np-cv5"/>
+                            <constraint firstItem="m4Y-xK-8ah" firstAttribute="centerY" secondItem="mGA-Gq-jqc" secondAttribute="centerY" id="bHK-Z5-br0"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="leading" secondItem="Nb5-32-4XD" secondAttribute="leading" id="bPR-QV-5Pu"/>
+                            <constraint firstItem="459-Jf-aTL" firstAttribute="top" secondItem="gOV-hV-kcj" secondAttribute="bottom" constant="16" id="eu0-Xr-ZVc"/>
+                            <constraint firstItem="mdO-ML-pD5" firstAttribute="top" secondItem="m4Y-xK-8ah" secondAttribute="bottom" constant="17" id="fEM-54-fa5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mGA-Gq-jqc" secondAttribute="trailing" constant="10" id="fJP-xG-aR3"/>
+                            <constraint firstItem="66G-yG-eGC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="fcf-MQ-Tiu"/>
+                            <constraint firstItem="459-Jf-aTL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="497" id="g0Y-AO-4le"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-14" id="gSe-MT-lKD"/>
+                            <constraint firstItem="mGA-Gq-jqc" firstAttribute="leading" secondItem="m4Y-xK-8ah" secondAttribute="trailing" constant="10" id="iUe-Rt-ys5"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="m4N-li-VcQ"/>
+                            <constraint firstItem="xmn-lL-zt1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="mat-cZ-ueK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="m4Y-xK-8ah" secondAttribute="top" id="mid-uB-J1f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gOV-hV-kcj" secondAttribute="trailing" constant="64" id="qSp-fc-For"/>
+                            <constraint firstItem="bJm-cK-azk" firstAttribute="leading" secondItem="e5n-Qb-Sek" secondAttribute="trailing" constant="82" id="rbN-2r-Gd2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="459-Jf-aTL" secondAttribute="trailing" constant="31.5" id="tA8-yJ-bn7"/>
+                            <constraint firstItem="pcc-qb-38R" firstAttribute="leading" secondItem="K3V-bM-QYr" secondAttribute="trailing" constant="49.5" id="tt6-zQ-705"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H8Y-5U-DRi" secondAttribute="trailing" constant="188" id="vi2-hh-d4v"/>
+                            <constraint firstAttribute="trailing" secondItem="mdO-ML-pD5" secondAttribute="trailing" id="wzh-Xl-KwF"/>
+                            <constraint firstItem="t5V-ki-dH2" firstAttribute="top" secondItem="H8Y-5U-DRi" secondAttribute="bottom" constant="28" id="zcU-xf-ScQ"/>
+                            <constraint firstItem="e5n-Qb-Sek" firstAttribute="top" secondItem="xmn-lL-zt1" secondAttribute="bottom" constant="29" id="zcc-98-xmQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TabBar" destination="Nb5-32-4XD" id="Oub-tk-CuS"/>
+                        <outlet property="börüImage" destination="mdO-ML-pD5" id="nZr-eh-btM"/>
+                        <outlet property="dizilerLabel" destination="e5n-Qb-Sek" id="Gi0-ih-NEB"/>
+                        <outlet property="filmlerLabel" destination="bJm-cK-azk" id="z7C-LU-89g"/>
+                        <outlet property="infoStackView" destination="459-Jf-aTL" id="T0V-aj-5gG"/>
+                        <outlet property="kategorilerLabel" destination="66G-yG-eGC" id="Fnp-fk-SNE"/>
+                        <outlet property="logoImage" destination="xmn-lL-zt1" id="Yq2-iD-fzf"/>
+                        <outlet property="netflixAvatarImage" destination="mGA-Gq-jqc" id="0la-Fv-nzH"/>
+                        <outlet property="playStackView" destination="K3V-bM-QYr" id="yoq-wP-9Fc"/>
+                        <outlet property="popülerLabel" destination="H8Y-5U-DRi" id="nIY-31-5DJ"/>
+                        <outlet property="türLabel" destination="gOV-hV-kcj" id="5rX-Re-WmQ"/>
+                        <outlet property="tvImage" destination="m4Y-xK-8ah" id="aiA-Q9-7sL"/>
+                        <outlet property="ımageStackView" destination="t5V-ki-dH2" id="fOz-Gv-A94"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="109"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="046693" width="400" height="533.33331298828125"/>
+        <image name="Dağ_II_film_afişi" width="233" height="333.33334350585938"/>
+        <image name="Netflix-avatar" width="320" height="320"/>
+        <image name="arrow.down.circle" catalog="system" width="128" height="121"/>
+        <image name="casino" width="65.333335876464844" height="85.666664123535156"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="netflix_logo" width="100" height="100"/>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
+        <image name="play.rectangle.on.rectangle" catalog="system" width="128" height="97"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="tv" catalog="system" width="128" height="97"/>
+        <image name="wallpaper" width="220" height="426.66665649414062"/>
+    </resources>
+</document>
